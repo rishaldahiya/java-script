@@ -1,0 +1,25 @@
+let cities = ["mumbai","hyderabad","jaipur","delhi"];
+
+//for of loop
+
+for(let c of cities){
+    console.log(c);
+}
+
+console.log("----------------");
+
+let person = {
+
+    fname :  "rishal",
+    lname : "singh",
+    email :"rishal.dahiya@gmail.com",
+    addr: "alwar, rajasthan"
+}
+
+//for of loop
+
+for(let p in person){
+
+    console.log(person[p]);
+
+}
